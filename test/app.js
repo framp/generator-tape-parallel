@@ -25,7 +25,7 @@ describe('generator-tape-parallel:app', function () {
   });
 });
 
-process.on('unhandledRejection', (error) => {
+process.on('unhandledRejection', function (error) {
   console.error('Unhandled Promise Rejection:');
   console.error(error && error.stack || error);
 });

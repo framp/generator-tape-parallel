@@ -6,7 +6,7 @@ var path = require('path');
 module.exports = generators.Base.extend({
   constructor: function () {
     generators.Base.apply(this, arguments);
-    this.option('reporter', { defaults: 'faucet' });
+    this.option('reporter', {defaults: 'faucet'});
   },
 
   writing: function () {
