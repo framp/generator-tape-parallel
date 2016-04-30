@@ -17,6 +17,8 @@ yo tape-parallel
 ```
 
 ## Tape-Parallel
+From zero to `npm test` in seconds!
+
 This generator is installing [tape](https://github.com/substack/tape), [tape-catch](https://github.com/michaelrhodes/tape-catch) and [faucet](https://github.com/substack/faucet), giving you a nice and simple testing environment. 
 
 To run a specific test just run `node test/test.js`.
