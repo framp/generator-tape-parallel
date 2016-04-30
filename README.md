@@ -1,5 +1,5 @@
 # generator-tape-parallel [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Adds straightforward testing via tape and parallel to your projects
+> Add straightforward testing via tape and parallel to your projects
 
 ## Installation
 
@@ -10,9 +10,10 @@ npm install -g yo
 npm install -g generator-tape-parallel
 ```
 
-Then generate your new project:
+Then navigate to your project (any directory which contains a `package.json` file):
 
 ```bash
+cd your-project
 yo tape-parallel
 ```
 

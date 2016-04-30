@@ -1,7 +1,7 @@
 {
   "name": "generator-tape-parallel",
-  "version": "1.0.0",
-  "description": "Adds straightforward testing via tape and parallel to your projects",
+  "version": "1.0.1",
+  "description": "Add straightforward testing via tape and parallel to your projects",
   "homepage": "https://github.com/framp/generator-tape-parallel",
   "author": {
     "name": "Federico Rampazzo <frampone@gmail.com>",
