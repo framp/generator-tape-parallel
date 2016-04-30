@@ -1,0 +1,58 @@
+{
+  "name": "generator-tape-parallel",
+  "version": "0.0.0",
+  "description": "Adds straightforward testing via tape and parallel to your projects",
+  "homepage": "https://github.com/framp/generator-tape-parallel",
+  "author": {
+    "name": "Federico Rampazzo <frampone@gmail.com>",
+    "email": "frampone@gmail.com",
+    "url": "http://framp.me"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "testing",
+    "tape",
+    "parallel",
+    "generator",
+    "yeoman",
+    "test",
+    "tdd",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.22.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.1.0",
+    "eslint-config-xo-space": "^0.12.0",
+    "fs-extra": "^0.30.0",
+    "gulp": "^3.9.0",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0",
+    "yeoman-assert": "^2.0.0",
+    "yeoman-test": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "framp/generator-tape-parallel",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp && mocha"
+  },
+  "license": "MIT"
+}
